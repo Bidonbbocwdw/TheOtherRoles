@@ -2143,8 +2143,7 @@ using UnityEngine;
 
 namespace TheOtherRoles.Roles
 {
-    public class Transporter : CustomRole
-    {
+
         // 1. Podstawowe ustawienia roli
         public override string Name => "Transporter";
         public override Color Color => new Color(0.1f, 0.7f, 0.9f); // Jasnoniebieski kolor roli
@@ -2227,3 +2226,5 @@ namespace TheOtherRoles.Roles
         }
     }
 }
+
+
